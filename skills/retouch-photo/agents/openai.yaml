@@ -1,0 +1,4 @@
+interface:
+  display_name: "照片精修"
+  short_description: "提取照片视觉元素，联网精选参考，交互确认方案后逐张精修并保护细节"
+  default_prompt: "使用 $retouch-photo 提取照片的视觉元素和文字并联网找参考。先放大检查，确实发现文字或标识才询问保护要求；没有则跳过。出方案前确认少量裁切、扩图和 imagegen 的权限及方案数量，等我选定方案后再逐张修图。"
