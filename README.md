@@ -54,7 +54,7 @@ sh skills/retouch-photo/scripts/photo.sh render /absolute/path/to/recipe.json
 
 ## 修图案例
 
-以下为已选定的七组案例。RAW 案例左栏展示基础显影或预览；美颜案例使用合成测试人像。图片均保存在本仓库中，点击可打开收录的较高分辨率文件。案例用于展示效果；完整 RAW、试验版本及逐图工作材料保留在原项目中。
+以下为已选定的八组案例。RAW 案例左栏展示基础显影或预览；美颜案例使用合成测试人像。图片均保存在本仓库中，点击可打开收录的较高分辨率文件。案例用于展示效果；完整 RAW、试验版本及逐图工作材料保留在原项目中。
 
 | 方案 | 原图 | 效果图 |
 | --- | --- | --- |
@@ -65,6 +65,7 @@ sh skills/retouch-photo/scripts/photo.sh render /absolute/path/to/recipe.json
 | **海岸小马 · 清爽海岸（A）**<br>用 imagegen 生成光色参考，结合全尺寸 RAW 局部调整，减轻鬃毛、白色腿毛和腹下的黄褐、黄绿色，保留毛丝、天然黑褐花斑与阴影层次。海水呈清爽蓝色，草地保持自然绿；成片沿用原片纹理与构图。 | <a href="examples/05-coastal-pony/before.jpg"><img src="examples/05-coastal-pony/before.jpg" width="600" alt="海岸小马原图，CR3 基础显影"></a> | <a href="examples/05-coastal-pony/after.jpg"><img src="examples/05-coastal-pony/after-preview.jpg" width="600" alt="海岸小马 A 版，清理白毛偏黄，点击查看全尺寸成片"></a> |
 | **卢浮宫人像 · 移除背景人群**<br>用 imagegen 移除背景游客及其随身物品、投影，重建被遮挡的地面与建筑下部。将原片前景人物合成回来，保留脸部、发丝、墨镜、手和手机等细节，并保留排队栏杆、展示牌与原有构图。 | <a href="examples/06-louvre-portrait/before.jpg"><img src="examples/06-louvre-portrait/before-preview.jpg" width="600" alt="卢浮宫人像原图，背景有游客"></a> | <a href="examples/06-louvre-portrait/after.jpg"><img src="examples/06-louvre-portrait/after-preview.jpg" width="600" alt="卢浮宫人像，移除背景人群，点击查看全尺寸成片"></a> |
 | **合成人像 · 自然肤质与眼袋淡化**<br>沿用已有痘痘和唇部干皮修复，减轻局部泛红与强反光，并柔化眼袋下缘阴影。用 imagegen 生成光色参考，提取局部光色变化后应用于原有皮肤细节，保留毛孔、绒毛、痣、正常唇纹与卧蚕，保持五官和神态自然。 | <a href="examples/07-beauty-portrait/before.png"><img src="examples/07-beauty-portrait/before.png" width="600" alt="合成人像原图，修图测试素材"></a> | <a href="examples/07-beauty-portrait/after.png"><img src="examples/07-beauty-portrait/after-preview.jpg" width="600" alt="自然肤质精修 v2，淡化眼袋，点击查看全尺寸成片"></a> |
+| **松赞林寺 · 金顶初照（A）**<br>用 imagegen 生成晨光参考，再提取光色变化来增强金顶、受光白墙与原有晨雾的浅金色，保留冷灰前景和全幅构图。建筑细节来自全尺寸 RAW 显影，前景白墙上的原字用蒙版回贴。 | <a href="examples/08-songzanlin-mist/before.jpg"><img src="examples/08-songzanlin-mist/before.jpg" width="600" alt="松赞林寺晨雾原图，RAW 基础显影"></a> | <a href="examples/08-songzanlin-mist/after.jpg"><img src="examples/08-songzanlin-mist/after-preview.jpg" width="600" alt="松赞林寺金顶初照 A 版，点击查看全尺寸成片"></a> |
 
 [美颜案例：原图／第一版／眼袋淡化版局部对照](examples/07-beauty-portrait/under-eye-comparison.jpg)
 
